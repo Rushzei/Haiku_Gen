@@ -21,7 +21,7 @@ public class WordSaver{
             System.out.println("Enter the Number of Syllables");
             int syl = scan.nextInt();
             while(!line.equals("")){
-            myWriter.write(line + syl + "\n");
+            myWriter.write.append(line + syl + "\n");
             line = scan.nextLine();
             }
         
